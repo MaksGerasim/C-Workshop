@@ -14,7 +14,7 @@ if (number < 0)
 else
 while (count < number || count == number)
       {
-       double square = Math.Pow((count),3);
-       Console.WriteLine (square);
+       double cub = Math.Pow((count),3);
+       Console.WriteLine (cub);
        count++;
       }
