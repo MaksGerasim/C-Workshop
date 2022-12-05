@@ -31,7 +31,7 @@ int GetNumber (string message)
     return Convert.ToInt32 (Console.ReadLine ());
 }
 
-int number = GetNumber("введите число");
+int number = GetNumber("");
 bool isCorrect = Validate(number);
 if (isCorrect == true)
 {
