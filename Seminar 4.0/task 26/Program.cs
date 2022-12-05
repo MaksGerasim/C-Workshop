@@ -22,17 +22,6 @@ int GetNumber (string message)
 }
 
 
-
-int countfigure2 (int A)
-{
-    int i = 0;
-    for (; A > 0; i++)
-    {
-         A /= 10;
-    }
-    return i;
-}
-
 int number = GetNumber ("");
-int count = countfigure2 (number);
+int count = countfigure1 (number);
 Console.WriteLine ($"количество цифр = {count}");
