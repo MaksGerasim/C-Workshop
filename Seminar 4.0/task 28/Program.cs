@@ -10,17 +10,17 @@ int GetNumber (string message)
 }
 
 
-int multnum1 (int A)
-{
-    int multnum = 1;
-    int count = 1;
-while (count <= A)
-{
-    multnum = multnum * count;
-    count++;
-}
-   return multnum;
-}
+// int multnum1 (int A)
+// {
+//     int multnum = 1;
+//     int count = 1;
+// while (count <= A)
+// {
+//     multnum = multnum * count;
+//     count++;
+// }
+//    return multnum;
+// }
 
 int multnum2 (int A)
 {
