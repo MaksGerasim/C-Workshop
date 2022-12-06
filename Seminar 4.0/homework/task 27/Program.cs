@@ -27,5 +27,12 @@ int SumDigit (int A)
 
 
 int number = InputConsole ("");
+if (number <= 0)
+{
+Console.WriteLine ("введите другое значение ");
+}
+else
+{
 int sumdigitNum = SumDigit (number);
 Console.WriteLine (sumdigitNum);
+}
