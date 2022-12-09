@@ -33,7 +33,7 @@ return array;
 
 string SearchNumberInArray (int [] array, int number)  // поиск наличия заданного значения в массиве
 {
-string Status = ("нет");    
+string Status = ("нет");    // можно использовать bool = (false, true)
 for (int i = 0; i < array.Length; i++)
 {
 if (array[i] == number)
