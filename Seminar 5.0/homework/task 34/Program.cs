@@ -15,18 +15,18 @@ int[] RandomArray(int size, int leftRange, int rightRange) // создание �
 }
 
 
-int CountPositiveNumber (int [] array)
+int CountEvenNumber (int [] array)
 {
-    int CountPosNum = 0;
+    int CountEvenNum = 0;
 
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i]%2 == 0)
         {
-            CountPosNum++;
+            CountEvenNum++;
         }
     }
-    return CountPosNum;
+    return CountEvenNum;
 }
 
 const int SIZE = 5;
@@ -35,5 +35,5 @@ const int RIGHTRANGE = 999;
 
 int [] RandArray = RandomArray (SIZE, LEFTRANGE, RIGHTRANGE);
 Console.WriteLine(string.Join (",", RandArray));
-int CountPositive = CountPositiveNumber (RandArray);
-Console.WriteLine ($"количество четных значений = {CountPositive}");
+int CountEvenNum = CountEvenNumber (RandArray);
+Console.WriteLine ($"количество четных значений = {CountEvenNum}");
