@@ -46,6 +46,6 @@ return newmass;
 Console.WriteLine("введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 int[] Num10code = Convert10num (number);
-Console.WriteLine(string.Join(",", Num10code));
+Console.WriteLine(string.Join(Num10code));
 ReversArray (Num10code);
-Console.WriteLine(string.Join(",", Num10code));
+Console.WriteLine(string.Join(Num10code));
