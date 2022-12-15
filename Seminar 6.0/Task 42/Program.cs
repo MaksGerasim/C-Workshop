@@ -28,7 +28,6 @@ while (countnuber > 0)
     countnuber = countnuber / 2;
     size++;
 }
-
 int ind = 0;
 int i = 0;
 int[] newmass = new int [size];
@@ -46,6 +45,6 @@ return newmass;
 Console.WriteLine("введите число");
 int number = Convert.ToInt32(Console.ReadLine());
 int[] Num10code = Convert10num (number);
-Console.WriteLine(string.Join(Num10code));
+Console.WriteLine(string.Join("",Num10code));
 ReversArray (Num10code);
-Console.WriteLine(string.Join(Num10code));
+Console.WriteLine(string.Join("",Num10code));
