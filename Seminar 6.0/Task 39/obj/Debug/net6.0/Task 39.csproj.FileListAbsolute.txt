@@ -1,0 +1,15 @@
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\bin\Debug\net6.0\Task 39.exe
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\bin\Debug\net6.0\Task 39.deps.json
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\bin\Debug\net6.0\Task 39.runtimeconfig.json
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\bin\Debug\net6.0\Task 39.dll
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\bin\Debug\net6.0\Task 39.pdb
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\Task 39.csproj.AssemblyReference.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\Task 39.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\Task 39.AssemblyInfoInputs.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\Task 39.AssemblyInfo.cs
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\Task 39.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\Task 39.dll
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\refint\Task 39.dll
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\Task 39.pdb
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\Task 39.genruntimeconfig.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Task 39\obj\Debug\net6.0\ref\Task 39.dll
