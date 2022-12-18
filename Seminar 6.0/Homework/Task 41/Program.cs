@@ -24,24 +24,24 @@
 void CountNumber ()
 {
 string? stopstatus = "";
-int number = 0;
 int count = 0;
  while (stopstatus != "stop")
  {
     Console.WriteLine("введите значение");
     stopstatus = Console.ReadLine();
-
-    if (stopstatus != "stop")
+    bool res = int.TryParse(stopstatus, out int result);
+    if (res == true)
     {
-        number = Convert.ToInt32(stopstatus);
-        if (number > 0)
+        if (result > 0)
         count++;
+    }
+    else
+    {
+        Console.WriteLine("введенная команда неверна");
     }
  }
 Console.WriteLine($"количество введенных значений > 0 = {count}");
 }
-
-
 
 CountNumber ();
 
