@@ -24,13 +24,22 @@ int[,] RandomTwoDimensionalArray(int rowsCount, int colunsCount, int leftRange, 
 }
 
 
-int AddDiagonnalNumbers(int [,] matrix)
+int AddDiagonnalNumbers(int[,] matrix)
 {
     int AddNum = 0;
     int j = 0;
-    for (int i = 0; i < matrix.GetLength(0); i++)
+    int Exit = 0;
+    if (matrix.GetLength(0) < matrix.GetLength(1))
     {
-        AddNum += matrix[i,j];
+        Exit = matrix.GetLength(0);
+    }
+    else
+    {
+        Exit = matrix.GetLength(1);
+    }
+    for (int i = 0; i < Exit; i++)
+    {
+        AddNum += matrix[i, j];
         j++;
     }
     return AddNum;
@@ -50,7 +59,7 @@ void PrintMatrix (int [,] matr)
 
 
 
-const int ROWSCOUNT = 4;
+const int ROWSCOUNT = 10;
 const int COLUNSCOUNT = 4;       
 const int lEFTRANGE = 1;
 const int RIGHTRANGE = 9;
