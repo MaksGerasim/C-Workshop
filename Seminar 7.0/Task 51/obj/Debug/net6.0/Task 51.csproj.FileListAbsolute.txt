@@ -1,0 +1,15 @@
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\Task 51.csproj.AssemblyReference.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\Task 51.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\Task 51.AssemblyInfoInputs.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\Task 51.AssemblyInfo.cs
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\Task 51.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\bin\Debug\net6.0\Task 51.exe
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\bin\Debug\net6.0\Task 51.deps.json
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\bin\Debug\net6.0\Task 51.runtimeconfig.json
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\bin\Debug\net6.0\Task 51.dll
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\bin\Debug\net6.0\Task 51.pdb
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\Task 51.dll
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\refint\Task 51.dll
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\Task 51.pdb
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\Task 51.genruntimeconfig.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 51\obj\Debug\net6.0\ref\Task 51.dll
