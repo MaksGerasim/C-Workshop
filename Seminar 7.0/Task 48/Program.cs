@@ -4,7 +4,7 @@
 // 1 2 3 4
 // 2 3 4 5
 
-int[,] TwoDimensionalMatrix (int rowsCount, int colunsCount)
+int[,] TwoDimensionalMatrixMaddN (int rowsCount, int colunsCount)
 {
     int[,] array = new int[rowsCount, colunsCount];
      
@@ -41,7 +41,7 @@ void PrintMatrix (int [,] matr)
 
 int rowsCount = GetNumber ("введите число строк");
 int colunsCount = GetNumber ("введите число колонок");
-int [,] Mart = TwoDimensionalMatrix(rowsCount, colunsCount);
+int [,] Mart = TwoDimensionalMatrixMaddN(rowsCount, colunsCount);
 PrintMatrix (Mart);
 
 
