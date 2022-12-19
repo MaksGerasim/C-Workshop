@@ -1,0 +1,15 @@
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\Task 49.csproj.AssemblyReference.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\Task 49.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\Task 49.AssemblyInfoInputs.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\Task 49.AssemblyInfo.cs
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\Task 49.csproj.CoreCompileInputs.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\bin\Debug\net6.0\Task 49.exe
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\bin\Debug\net6.0\Task 49.deps.json
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\bin\Debug\net6.0\Task 49.runtimeconfig.json
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\bin\Debug\net6.0\Task 49.dll
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\bin\Debug\net6.0\Task 49.pdb
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\Task 49.dll
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\refint\Task 49.dll
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\Task 49.pdb
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\Task 49.genruntimeconfig.cache
+C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Task 49\obj\Debug\net6.0\ref\Task 49.dll
