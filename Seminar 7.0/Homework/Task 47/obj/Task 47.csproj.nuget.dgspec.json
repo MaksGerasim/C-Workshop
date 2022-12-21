@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Максим\\Documents\\С# введение семинары\\C-Workshop\\Seminar 7.0\\Homework\\Task 47\\Task 47.csproj": {}
+    "C:\\Users\\gerasimov\\Documents\\Prog\\Repository\\workshop\\seminar\\Seminar 7.0\\Homework\\Task 47\\Task 47.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Максим\\Documents\\С# введение семинары\\C-Workshop\\Seminar 7.0\\Homework\\Task 47\\Task 47.csproj": {
+    "C:\\Users\\gerasimov\\Documents\\Prog\\Repository\\workshop\\seminar\\Seminar 7.0\\Homework\\Task 47\\Task 47.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Максим\\Documents\\С# введение семинары\\C-Workshop\\Seminar 7.0\\Homework\\Task 47\\Task 47.csproj",
+        "projectUniqueName": "C:\\Users\\gerasimov\\Documents\\Prog\\Repository\\workshop\\seminar\\Seminar 7.0\\Homework\\Task 47\\Task 47.csproj",
         "projectName": "Task 47",
-        "projectPath": "C:\\Users\\Максим\\Documents\\С# введение семинары\\C-Workshop\\Seminar 7.0\\Homework\\Task 47\\Task 47.csproj",
-        "packagesPath": "C:\\Users\\Максим\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Максим\\Documents\\С# введение семинары\\C-Workshop\\Seminar 7.0\\Homework\\Task 47\\obj\\",
+        "projectPath": "C:\\Users\\gerasimov\\Documents\\Prog\\Repository\\workshop\\seminar\\Seminar 7.0\\Homework\\Task 47\\Task 47.csproj",
+        "packagesPath": "C:\\Users\\gerasimov\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gerasimov\\Documents\\Prog\\Repository\\workshop\\seminar\\Seminar 7.0\\Homework\\Task 47\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Максим\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\gerasimov\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

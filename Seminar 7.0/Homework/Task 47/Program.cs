@@ -9,28 +9,28 @@
 // 8 7,8 -7,1 9
 
 
-double [,] RandomTwoDimensionalArray (int rowsCount, int columnsCount,int leftRange, int rightRange)
+double [,] RandomTwoDimensionalArray (int rowsCount, int columnsCount) //double leftRange, double rightRange
 {
     double [,] array = new double[rowsCount, columnsCount];
-    Random rand = rand.NextDouble();
+    Random rand = new Random();
 
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = rand.Next(leftRange, rightRange + 1);
+            array[i, j] = rand.NextDouble() * (10+10) - 10;
         }
     }
     return array;
 }
 
-void PrintMatrix (int [,] matr)
+void PrintMatrix (double [,] matr)
 {
     for (int i = 0; i < matr.GetLength(0); i++)
     {
         for (int j = 0; j < matr.GetLength(1); j++)
         {
-            Console.Write(matr [i,j] + " ");     
+            Console.Write($"{matr [i,j]:f2}, ");     
         }
         Console.WriteLine();
     }
@@ -38,11 +38,10 @@ void PrintMatrix (int [,] matr)
 
 const int ROWSCOUNT = 3;
 const int COLUNSCOUNT = 4;
-const int lEFTRANGE = 0;
-const int RIGHTRANGE = 150;
 
-int [,] NewArray = RandomTwoDimensionalArray(ROWSCOUNT, COLUNSCOUNT, lEFTRANGE, RIGHTRANGE);
-PrintMatrix(NewArray);
+
+double [,] NewArray = RandomTwoDimensionalArray(ROWSCOUNT, COLUNSCOUNT);
+PrintMatrix (NewArray);
 
 
 

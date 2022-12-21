@@ -13,3 +13,18 @@ C:\Users\Максим\Documents\С# введение семинары\C-Workshop
 C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.pdb
 C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.genruntimeconfig.cache
 C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\ref\Task 47.dll
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.csproj.AssemblyReference.cache
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.AssemblyInfoInputs.cache
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.AssemblyInfo.cs
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.csproj.CoreCompileInputs.cache
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.dll
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\refint\Task 47.dll
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.pdb
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\bin\Debug\net6.0\Task 47.exe
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\bin\Debug\net6.0\Task 47.deps.json
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\bin\Debug\net6.0\Task 47.runtimeconfig.json
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\bin\Debug\net6.0\Task 47.dll
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\bin\Debug\net6.0\Task 47.pdb
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\Task 47.genruntimeconfig.cache
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 7.0\Homework\Task 47\obj\Debug\net6.0\ref\Task 47.dll
