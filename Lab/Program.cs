@@ -160,59 +160,57 @@ int StatusExit (int [,] RandMatrix)
     int status;
 if (RandMatrix.GetLength(0) <= RandMatrix.GetLength(0))
 {
-    status = RandMatrix.GetLength(1)/2;
+    status = RandMatrix.GetLength(0)/2;
 }
 else
 {
-    status = RandMatrix.GetLength(0)/2;
+    status = RandMatrix.GetLength(1)/2;
 }
 return status;
 }
 
-const int ROWSCOUNT = 5;
-const int COLUNSCOUNT = 5;       
+
+
+Console.WriteLine("введите количество строк");
+int ROWSCOUNT = Convert.ToInt32 (Console.ReadLine());
+Console.WriteLine("введите количество столбцов");
+int COLUNSCOUNT = Convert.ToInt32 (Console.ReadLine());       
 
 int [,] RandMatrix = TwoDimensionalArray(ROWSCOUNT, COLUNSCOUNT);
-PrintMatrix(RandMatrix);
-Console.WriteLine("");
 
 int count = 0;
 int index = 0;
 int status = StatusExit (RandMatrix);
 
-while (count < status)
+while (count < 1)
 {
 int RightI = 0 + index;
 int RightJ = 0 + index;
 int LengthI = RandMatrix.GetLength(0)-(1+index); // = строки
 int Lengthj = RandMatrix.GetLength(1)-(1+index); // ||| колонки
 int [,] ArrRight= RightRows (RandMatrix, RightI, RightJ, LengthI, Lengthj);
-PrintMatrix(ArrRight);
-Console.WriteLine("");
+
 
 int DownI = 0 + index;
 int DownJ = RandMatrix.GetLength(1)-(1+index);
 LengthI = RandMatrix.GetLength(0)-(1+index); // = строки
 Lengthj = RandMatrix.GetLength(1)-(1+index); // ||| колонки 
 int [,] ArrDown= DownRows (ArrRight, DownI, DownJ, LengthI, Lengthj);
-PrintMatrix(ArrRight);
-Console.WriteLine("");
+
 
 int LeftI = RandMatrix.GetLength(0)-(1+index);
 int LeftJ = RandMatrix.GetLength(1)-(1+index);
 Lengthj = 0 + index; // ||| колонки
 int [,] ArrLift= LeftRows (ArrDown, LeftI, LeftJ, LengthI, Lengthj);
-PrintMatrix(ArrRight);
-Console.WriteLine("");
+
 
 int UpI = RandMatrix.GetLength(0)-(1+index);
 int UpJ = 0 + index;
 LengthI = 0 + index; // = строки
 int [,] ArrUp= UpRows (ArrLift, UpI, UpJ, LengthI, Lengthj);
-PrintMatrix(ArrRight);
-Console.WriteLine("");
 
-Console.WriteLine();
+PrintMatrix(ArrUp);
+Console.WriteLine("");
 
 RandMatrix = ArrUp;
 count++;
