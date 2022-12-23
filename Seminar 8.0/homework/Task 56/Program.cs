@@ -79,7 +79,7 @@ Console.WriteLine(string.Join(",", TempArray));
     }
 }
 
-const int ROWSCOUNT = 3;
+const int ROWSCOUNT = 4;
 const int COLUNSCOUNT = 4;       
 const int lEFTRANGE = 1;
 const int RIGHTRANGE = 9;

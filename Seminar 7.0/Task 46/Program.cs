@@ -22,11 +22,11 @@ int[,] RandomTwoDimensionalArray(int rowsCount, int colunsCount, int leftRange, 
 }
 
 
-int GetNumber (string Message)
-{
-    Console.WriteLine(Message);
-    return Convert.ToInt32(Console.ReadLine());
-}
+// int GetNumber (string Message)
+// {
+//     Console.WriteLine(Message);
+//     return Convert.ToInt32(Console.ReadLine());
+// }
 
 void PrintMatrix (int [,] matr)
 {

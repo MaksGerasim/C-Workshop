@@ -66,7 +66,6 @@ int[,] SortingNumbersRows(int[,] matrix)
 }
 
 
-
 const int ROWSCOUNT = 3;
 const int COLUNSCOUNT = 4;       
 const int lEFTRANGE = 1;
@@ -78,6 +77,11 @@ Console.WriteLine("");
 int [,] nummin = SortingNumbersRows (RandMatrix);
 // int [,] NewMatrix = SortingNumbersRows (RandMatrix);
 PrintMatrix(nummin);
+
+
+
+
+
 
 
 
