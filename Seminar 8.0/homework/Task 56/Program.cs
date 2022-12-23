@@ -54,7 +54,7 @@ int [] AddNumberRows(int[,] matrix)
         Console.WriteLine(AddNumRows);
         TempArray[u] = AddNumRows;
         u++;
-        Console.WriteLine(string.Join(",", TempArray));
+        // Console.WriteLine(string.Join(",", TempArray));
     }
 return TempArray;
 }
@@ -62,7 +62,6 @@ return TempArray;
 void MinRows(int[] TempArray)
 {
 int MinNum = TempArray[0];
-Console.WriteLine(string.Join(",", TempArray));
     for (int y = 0; y < TempArray.Length; y++)
     {
         if (TempArray[y] <= MinNum)
@@ -74,7 +73,7 @@ Console.WriteLine(string.Join(",", TempArray));
     { 
         if (TempArray[g] == MinNum)
         {
-            Console.WriteLine($"строка с минимальным значеением {g + 1}");
+            Console.WriteLine($"строка с минимальным значеением - {g + 1}");
         }
     }
 }
