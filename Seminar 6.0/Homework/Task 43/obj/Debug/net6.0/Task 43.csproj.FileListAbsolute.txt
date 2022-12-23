@@ -13,3 +13,18 @@ C:\Users\Максим\Documents\С# введение семинары\C-Workshop
 C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.pdb
 C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.genruntimeconfig.cache
 C:\Users\Максим\Documents\С# введение семинары\C-Workshop\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\ref\Task 43.dll
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\bin\Debug\net6.0\Task 43.exe
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\bin\Debug\net6.0\Task 43.deps.json
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\bin\Debug\net6.0\Task 43.runtimeconfig.json
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\bin\Debug\net6.0\Task 43.dll
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\bin\Debug\net6.0\Task 43.pdb
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.csproj.AssemblyReference.cache
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.AssemblyInfoInputs.cache
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.AssemblyInfo.cs
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.csproj.CoreCompileInputs.cache
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.dll
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\refint\Task 43.dll
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.pdb
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\Task 43.genruntimeconfig.cache
+C:\Users\gerasimov\Documents\Prog\Repository\workshop\seminar\Seminar 6.0\Homework\Task 43\obj\Debug\net6.0\ref\Task 43.dll
