@@ -5,84 +5,248 @@
 // 11 16 15 6
 // 10 9 8 7
 
-
-int[,] RandomSpiralArray(int rowsCount, int colunsCount, int leftRange, int rightRange)
+internal class Program // заполнение двухмерого массива спирально по возрастанию
 {
-    
-    int[,] array = new int[rowsCount, colunsCount]; 
-
-    int AdjLenght0 = array.GetLength(0);
-    int AdjLenght1 = array.GetLength(1);
-    int NumSize = 1;
-    int RightI = 0; 
-    int RightJ = 0;
-    int DownI = 0;
-    int DownJ = array.GetLength(0)-1;
-    int LeftI = array.GetLength(1)-1;
-    int LeftJ = array.GetLength(1)-1;
-    int UpI = 2;
-    int UpJ = 0;
-    int count = 1;
-while (count != 0)
-{
-    int RightStop = RightI+1;
-    for (; RightI < RightStop; RightI++)
+    private static void Main(string[] args)
     {
-        for (; RightJ < array.GetLength(0)-1; RightJ++)
+        int[,] TwoDimensionalArray(int rowsCount, int colunsCount)
         {
-            array[RightI, RightJ] = NumSize++;
+            int[,] array = new int[rowsCount, colunsCount];
+            return array;
         }
-    }
-    
-    int DownStop = DownJ+1; 
-    for (; DownJ < DownStop; DownJ++)
-    {
-        for (; DownI < array.GetLength(1)-1; DownI++)
-        {
-            array[DownI, DownJ] = NumSize++;
-        }
-    }
 
-    int LeftStop = LeftI-1;
-    for (; LeftI > LeftStop; LeftI--)
-    {
-        for (; LeftJ > 0; LeftJ--)
+        void PrintMatrix(int[,] matr)
         {
-            array[LeftI, LeftJ] = NumSize++;
+            for (int i = 0; i < matr.GetLength(0); i++)
+            {
+                for (int j = 0; j < matr.GetLength(1); j++)
+                {
+                    Console.Write(matr[i, j] + " ");
+                }
+                Console.WriteLine();
+            }
         }
-    }
 
-    int UpStop = UpJ-1;
-    for (; UpJ > UpStop; UpJ--)
-    {
-        for (; UpI > 0; UpI--)
+        int[,] RightRows(int[,] matr, int i, int j, int LengthI, int Lengthj)
         {
-            array[UpI,UpJ] = NumSize++;
+            int NumCell;
+            int RightStop = i + 1;
+            int maxNum = matr[0, 0];
+            for (int a = 0; a < matr.GetLength(0); a++)
+            {
+                for (int b = 0; b < matr.GetLength(1); b++)
+                {
+                    if (matr[a, b] > maxNum)
+                        maxNum = matr[a, b];
+                }
+            }
+            for (; i < RightStop; i++)
+            {
+                NumCell = maxNum + 1;
+                for (; j < Lengthj; j++)
+                {
+                    matr[i, j] = NumCell++;
+                }
+            }
+            return matr;
         }
-    }
 
-    count--;
+        int[,] DownRows(int[,] matr, int i, int j, int LengthI, int Lengthj)
+        {
+            int NumCell;
+            int DownStop = j + 1;
+            int maxNum = matr[0, 0];
+            for (int a = 0; a < matr.GetLength(0); a++)
+            {
+                for (int b = 0; b < matr.GetLength(1); b++)
+                {
+                    if (matr[a, b] > maxNum)
+                        maxNum = matr[a, b];
+                }
+            }
+            for (; j < DownStop; j++)
+            {
+                NumCell = maxNum + 1;
+                for (; i < LengthI; i++)
+                {
+                    matr[i, j] = NumCell++;
+                }
+            }
+            return matr;
+        }
+
+        int[,] LeftRows(int[,] matr, int i, int j, int LengthI, int Lengthj)
+        {
+            int NumCell;
+            int LeftStop = i - 1;
+            int maxNum = matr[0, 0];
+            for (int a = 0; a < matr.GetLength(0); a++)
+            {
+                for (int b = 0; b < matr.GetLength(1); b++)
+                {
+                    if (matr[a, b] > maxNum)
+                        maxNum = matr[a, b];
+                }
+            }
+            for (; i > LeftStop; i--)
+            {
+                NumCell = maxNum + 1;
+                for (; j > Lengthj; j--)
+                {
+                    matr[i, j] = NumCell++;
+                }
+            }
+            return matr;
+        }
+
+        int[,] UpRows(int[,] matr, int i, int j, int LengthI, int Lengthj)
+        {
+            int NumCell;
+            int UpStop = j - 1;
+            int maxNum = matr[0, 0];
+            for (int a = 0; a < matr.GetLength(0); a++)
+            {
+                for (int b = 0; b < matr.GetLength(1); b++)
+                {
+                    if (matr[a, b] > maxNum)
+                        maxNum = matr[a, b];
+                }
+            }
+            for (; j > UpStop; j--)
+            {
+                NumCell = maxNum + 1;
+                for (; i > LengthI; i--)
+                {
+                    matr[i, j] = NumCell++;
+                }
+            }
+            return matr;
+        }
+
+        int StatusExit(int[,] RandMatrix)
+        {
+            int status;
+            if (RandMatrix.GetLength(0) <= RandMatrix.GetLength(1))
+            {
+                status = RandMatrix.GetLength(0) / 2;
+            }
+            else
+            {
+                status = RandMatrix.GetLength(1) / 2;
+            }
+            //Console.WriteLine(status);
+            return status;
+        }
+
+        int[,] OddRightRows(int[,] matr)
+        {
+            int maxNum = matr[0, 0];
+            int imax = 0;
+            int jmax = 0;
+            for (int a = 0; a < matr.GetLength(0); a++)
+            {
+                for (int b = 0; b < matr.GetLength(0); b++)
+                {
+                    if (matr[a, b] > maxNum)
+                    {
+                        maxNum = matr[a, b];
+                        imax = a;
+                        jmax = b;
+                    }
+                }
+            }
+            int NumCell = maxNum + 1;
+            while (matr[imax, jmax + 1] == 0)
+            {
+                matr[imax, jmax + 1] = NumCell++;
+                jmax++;
+            }
+            return matr;
+        }
+
+        int[,] OddDownRows(int[,] matr)
+        {
+            int maxNum = matr[0, 0];
+            int imax = 0;
+            int jmax = 0;
+            for (int a = 0; a < matr.GetLength(0); a++)
+            {
+                for (int b = 0; b < matr.GetLength(1); b++)
+                {
+                    if (matr[a, b] > maxNum)
+                    {
+                        maxNum = matr[a, b];
+                        imax = a;
+                        jmax = b;
+                    }
+                }
+            }
+            int NumCell = maxNum + 1;
+            if (matr[imax, jmax + 1] == 0)
+            {
+                matr[imax, jmax + 1] = NumCell++;
+                jmax++;
+            }
+            while (matr[imax + 1, jmax] == 0)
+            {
+                matr[imax + 1, jmax] = NumCell++;
+                imax++;
+            }
+            return matr;
+        }
+
+        Console.WriteLine("введите количество строк");
+        int rowsCount = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("введите количество столбцов");
+        int colunsCount = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine("");
+        int[,] RandMatrix = TwoDimensionalArray(rowsCount, colunsCount);
+        int count = 0;
+        int index = 0;
+        int status = StatusExit(RandMatrix);
+        while (count < status)
+        {
+            int RightI = 0 + index;
+            int RightJ = 0 + index;
+            int LengthI = RandMatrix.GetLength(0) - (1 + index);
+            int Lengthj = RandMatrix.GetLength(1) - (1 + index);
+            int[,] ArrRight = RightRows(RandMatrix, RightI, RightJ, LengthI, Lengthj);
+
+            int DownI = 0 + index;
+            int DownJ = RandMatrix.GetLength(1) - (1 + index);
+            LengthI = RandMatrix.GetLength(0) - (1 + index);
+            Lengthj = RandMatrix.GetLength(1) - (1 + index);
+            int[,] ArrDown = DownRows(ArrRight, DownI, DownJ, LengthI, Lengthj);
+
+            int LeftI = RandMatrix.GetLength(0) - (1 + index);
+            int LeftJ = RandMatrix.GetLength(1) - (1 + index);
+            Lengthj = 0 + index;
+            int[,] ArrLift = LeftRows(ArrDown, LeftI, LeftJ, LengthI, Lengthj);
+
+            int UpI = RandMatrix.GetLength(0) - (1 + index);
+            int UpJ = 0 + index;
+            LengthI = 0 + index;
+            int[,] ArrUp = UpRows(ArrLift, UpI, UpJ, LengthI, Lengthj);
+
+            RandMatrix = ArrUp;
+            count++;
+            index++;
+        }
+        if (RandMatrix.GetLength(0) < RandMatrix.GetLength(1))
+        {
+            int[,] OddRight = OddRightRows(RandMatrix);
+            RandMatrix = OddRight;
+        }
+        else if (RandMatrix.GetLength(1) < RandMatrix.GetLength(0))
+        {
+            int[,] OddDown = OddDownRows(RandMatrix);
+            RandMatrix = OddDown;
+        }
+        else if (RandMatrix.GetLength(1) == RandMatrix.GetLength(0))
+        {
+            int[,] OddRight = OddRightRows(RandMatrix);
+            RandMatrix = OddRight;
+        }
+        PrintMatrix(RandMatrix);
+    }
 }
-return array;
-}
-
-void PrintMatrix (int [,] matr)
-{
-    for (int i = 0; i < matr.GetLength(0); i++)
-    {
-        for (int j = 0; j < matr.GetLength(1); j++)
-        {
-            Console.Write(matr [i,j] + " ");     
-        }
-        Console.WriteLine();
-    }
-}
-
-
-const int ROWSCOUNT = 3;
-const int COLUNSCOUNT = 3;       
-const int lEFTRANGE = 1;
-const int RIGHTRANGE = 9;
-
-int [,] SpiralArray = RandomSpiralArray(ROWSCOUNT, COLUNSCOUNT, lEFTRANGE, RIGHTRANGE);
-PrintMatrix(SpiralArray);
