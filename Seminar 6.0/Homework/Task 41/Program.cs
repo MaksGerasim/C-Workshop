@@ -35,7 +35,11 @@ int count = 0;
         if (result > 0)
         count++;
     }
-    else
+    if (res == false && stopstatus == "stop")
+    {
+
+    }
+    else if (res == false)
     {
         Console.WriteLine("введенная команда неверна");
     }
