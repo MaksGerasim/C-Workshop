@@ -27,11 +27,11 @@ int[,] RandomTwoDimensionalArray(int rowsCount, int colunsCount, int leftRange, 
 
 void ArithmeticMeanColunsMatrix (int [,] matr)
 {
-    for (int j = 0; j < matr.GetLength(0); j++)
+    for (int j = 0; j < matr.GetLength(1); j++)
     {
         double ArithmeticMean = 0;
         int i = 0;
-        for (; i < matr.GetLength(1); i++)
+        for (; i < matr.GetLength(0); i++)
         {
             ArithmeticMean += matr [i,j];
             
@@ -55,8 +55,8 @@ void PrintMatrix (int [,] matr)
 }
 
 
-const int ROWSCOUNT = 3;
-const int COLUNSCOUNT = 3;       
+const int ROWSCOUNT = 2;
+const int COLUNSCOUNT = 4;       
 const int lEFTRANGE = 1;
 const int RIGHTRANGE = 9;
 
