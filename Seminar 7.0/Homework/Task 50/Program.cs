@@ -61,6 +61,6 @@ const int RIGHTRANGE = 9;
 
 int [,] RandMatrix = RandomTwoDimensionalArray(ROWSCOUNT, COLUNSCOUNT, lEFTRANGE, RIGHTRANGE);
 PrintMatrix(RandMatrix);
-int iRow = GetNumber ("введите индекс строки i ");
-int jCol = GetNumber ("введите индекс колонки j ");
+int iRow = GetNumber ("введите номер строки ");
+int jCol = GetNumber ("введите номер колонки ");
 ReturnNumberCell (iRow, jCol, RandMatrix);
