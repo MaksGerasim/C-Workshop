@@ -37,7 +37,7 @@ void ReturnNumberCell (int i, int j, int [,] matr)
     }
     else
     {
-        Console.WriteLine($"значение элемента = {matr[i,j]}");
+        Console.WriteLine($"значение элемента = {matr[i-1,j-1]}");
     }
 }
 
