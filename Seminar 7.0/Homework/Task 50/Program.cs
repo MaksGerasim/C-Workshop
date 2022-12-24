@@ -55,7 +55,7 @@ void PrintMatrix (int [,] matr)
 
 
 const int ROWSCOUNT = 4;
-const int COLUNSCOUNT = 2;       
+const int COLUNSCOUNT = 4;       
 const int lEFTRANGE = 1;
 const int RIGHTRANGE = 9;
 
