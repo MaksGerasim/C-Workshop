@@ -14,11 +14,10 @@ int ConsoleEnterData ()
 void NumberConclusion(int Num, int Count = 1)
 {
         Console.Write($"{Count}, ");
-        Count++;
 
-    if (Count < Num + 1)
+    if (Count < Num)
     {
-        NumberConclusion(Num, Count);
+        NumberConclusion(Num, Count + 1);
     }
 }
 
