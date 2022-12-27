@@ -22,6 +22,5 @@ else
   {
     Console.Write("Min = "); Console.WriteLine(number1); Console.Write("Max = "); Console.WriteLine(number2);
   }
-
 }
 

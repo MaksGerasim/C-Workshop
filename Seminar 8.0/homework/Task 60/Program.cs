@@ -42,7 +42,7 @@ void PrintMatrix(int[,,] matr)
     }
 }
 
-const int ROWSCOUNT = 2;
+const int ROWSCOUNT = 3;
 const int COLUNSCOUNT = 2;
 const int DEEPCOUNT = 2;  
 const int lEFTRANGE = 1;

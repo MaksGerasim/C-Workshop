@@ -13,11 +13,10 @@ int ConsoleEnterData (string enter)
 void ConclusionInerval(int NumMin, int NumMax)
 {
         Console.Write($"{NumMin}, ");
-        NumMin++;
 
-    if (NumMin < NumMax+1)
+    if (NumMin < NumMax)
     {
-        ConclusionInerval(NumMin, NumMax);
+        ConclusionInerval(NumMin + 1, NumMax);
     }
 }
 

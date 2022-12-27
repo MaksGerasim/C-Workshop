@@ -21,7 +21,7 @@ internal class Program // заполнение двухмерого массив
             {
                 for (int j = 0; j < matr.GetLength(1); j++)
                 {
-                    Console.Write(matr[i, j] + " ");
+                    Console.Write(matr[i, j] +  " ");
                 }
                 Console.WriteLine();
             }
@@ -250,3 +250,4 @@ internal class Program // заполнение двухмерого массив
         PrintMatrix(RandMatrix);
     }
 }
+
