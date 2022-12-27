@@ -30,6 +30,5 @@ int FAckerman (int m, int n)
 
 int m = ConsoleEnterData ("введите пчисло m");
 int n = ConsoleEnterData ("введите число n");
-
 int A = FAckerman (m, n);
-Console.WriteLine(A);
+Console.WriteLine($"A = {A}");
